@@ -80,6 +80,43 @@ p {
 .project-section {
   padding: 120px 60px;
 }
+
+.email-link {
+  text-align: center;
+  color: #6c63ff;
+}
+#contact {
+  text-align: center;
+}
+
+.about-header {
+  padding: 160px 20px;
+}
+.about-header h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-header h2 {
+  color: #272142;
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.about-header p {
+  color: #272142;
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.profile-picture {
+  max-width: 500px;
+  border-radius: 20px;
+}
+.about-header-content {
+  padding: 40px 40px;
+}
 @media (max-width: 960px) {
   .header h1 {
     font-size: 44px;
@@ -95,18 +132,15 @@ p {
     padding: 0;
     text-align: center;
   }
-}
-.about-paragraphs p {
-  color: #272142;
-  font-family: var(--primary-font-family);
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 1.5;
-}
-.email-link {
-  text-align: center;
-  color: #6c63ff;
-}
-#contact {
-  text-align: center;
+  .about-header h1 {
+    font-size: 44px;
+    line-height: 1.3;
+  }
+  .about-header {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .profile-picture {
+    max-width: 400px;
+  }
 }
