@@ -28,12 +28,18 @@
     />
     <link rel="stylesheet" href="/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Olga Matviichuk | Projects</title>
+    <meta
+      name="description"
+      content="Olga's pojects, a professional front-end developer based in Kyiv, Ukraine"
+    />
+    <title>Front-end developer | Olga Matviichuk | Projects</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mt-30">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">Olga Matviichuk</a>
+        <a class="navbar-brand" href="/index.html" title="Homepage"
+          >Olga Matviichuk</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -48,24 +54,36 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/index.html"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/about.html"
+              <a class="nav-link" href="/about.html" title="About Olga"
                 >About me</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/projects.html">Projects</a>
+              <a
+                class="nav-link active"
+                href="/projects.html"
+                title="Olga's projects"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contacts</a>
+              <a class="nav-link" href="/contact.html" title="Contact Olga"
+                >Contacts</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look what I've been working on</h1>
@@ -114,25 +132,50 @@
       </div>
       <footer class="text-center">
         <p>
-          <a href="mailto:olya4matviychuk@gmail.com" class="email-link">
+          <a
+            href="mailto:olya4matviychuk@gmail.com"
+            class="email-link"
+            title="Email OlgaMatviichuk"
+          >
             ✉ olya4matviychuk@gmail.com
           </a>
         </p>
         <div class="social-links d-flex justify-content-center mt-4">
-          <a href="https://github.com/OlgaMatviichuk" target="_blank">
+          <a
+            href="https://github.com/OlgaMatviichuk"
+            target="_blank"
+            title="GitHub profile"
+          >
             <i class="fa-brands fa-square-github"></i>
           </a>
-          <a href="https://www.instagram.com/olya.matviichuk/" target="_blank">
+          <a
+            href="https://www.instagram.com/olya.matviichuk/"
+            target="_blank"
+            title="Instagram profile"
+          >
             <i class="fa-brands fa-square-instagram"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/olga-matviichuk-4423455b/"
             target="_blank"
+            title="LinkedIn profile"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
       </footer>
+      <div class="footnote text-center mb-5">
+        <span>
+          This project was coded by Olga Matviichuk and it is
+          <a
+            href="https://github.com/OlgaMatviichuk/Portfolio-project"
+            target="_blank"
+            class="open-source"
+          >
+            open-sourced
+          </a>
+        </span>
+      </div>
     </div>
   </body>
 </html>
